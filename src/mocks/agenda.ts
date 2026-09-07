@@ -1,0 +1,86 @@
+export const agenda = [
+  {
+    time: '08.30-09.00',
+    title: 'Kahvaltı / Kayıt',
+    description: 'Katılımcıların karşılanması, yaka kartı dağıtımı, networking kahvesi ve kahvaltı.',
+    type: 'Kayıt',
+  },
+  {
+    time: '09.00-09.20',
+    title: 'Açılış Konuşmaları',
+    description: 'Hakan Yüksel / Genel Müdür / HYF Global\nBarış Arıkan / Satış & Pazarlama Grup Direktörü / MEXT\nErol Gülmez / Yönetim Kurulu Başkanı / NOSAB',
+    type: 'Açılış',
+  },
+  {
+    time: '09.20-09.35',
+    title: 'Hibe ve Teşvik Programları Aktarımı',
+    description: 'Bursa KOSGEB',
+    type: 'Panel',
+  },
+  {
+    time: '09.35-09.50',
+    title: 'MEXT Teknoloji Merkezi ve Dijital Dönüşüm Destek Programları Aktarımı',
+    description: 'Ömer Cinpir / Satış ve İş Geliştirme Direktörü / MEXT',
+    type: 'Sunum',
+  },
+  {
+    time: '09.50-10.00',
+    title: 'Yeşil Dönüşüm Destek Programları Aktarımı',
+    description: 'Andac Özhan / Sürdürülebilirlik Yöneticisi / MEXT',
+    type: 'Sunum',
+  },
+  {
+    time: '10.00-10.10',
+    title: 'IoT ve Yapay Zekâ ile Verimli, Sürdürülebilir ve Rekabetçi OSB\'ler',
+    description: 'Oğuz Kırmızı / CEO / Rotiot',
+    type: 'Sunum',
+  },
+  {
+    time: '10.10-10.20',
+    title: 'ERP\'den Dijital Platforma: SAP Business One\'ın Yeni Nesil Rolü',
+    description: 'Mert Onay / ERP Çözümleri Direktörü / Logosoft',
+    type: 'Sunum',
+  },
+  {
+    time: '10.20-10.30',
+    title: 'Geçmişten Günümüze Dijitalleşme ve E-dönüşüm Yolculuğu',
+    description: 'Ali Bulut / Kurucu/CEO / TAXTEN Teknoloji',
+    type: 'Sunum',
+  },
+  {
+    time: '10.30-11.20',
+    title: 'Dijital Dönüşüm Tecrübe Paylaşım Paneli',
+    description: 'Moderatör: Nejla Alkan / Yazılım Çözümlerinden Sorumlu Kanal Yöneticisi / Schneider Electric\nSinan Sergen Aslan / Kurumsal Uygulamalar Yöneticisi / Sanipak\nİbrahim Gökdağ / Genel Müdür / Gökdağ Plastik\nSaygın Kaçar / Akıllı Üretim Teknolojileri Müdürü / Börçelik',
+    type: 'Panel',
+  },
+  {
+    time: '11.20-11.40',
+    title: 'Kahve Arası / Networking',
+    description: 'Çözüm ortakları ve katılımcılar arasında networking fırsatı.',
+    type: 'Networking',
+  },
+  {
+    time: '11.40-11.50',
+    title: 'Üretimin Sesini Aç',
+    description: 'Emine Mayda İmam / Üretim Yönetim Sistemi Direktörü / MAS Plus',
+    type: 'Sunum',
+  },
+  {
+    time: '11.50-12.00',
+    title: 'Üretmek Yetmez: Dijital Dünyada Markalaşmak ve Değer Yaratmak',
+    description: 'Çağdaş Aydın / Genel Müdür / BIFF',
+    type: 'Sunum',
+  },
+  {
+    time: '12.00-12.50',
+    title: 'Yeşil Dönüşüm Tecrübe Paylaşım Paneli',
+    description: 'Moderatör: Gamze İnci Kalyoncu / GAIA Kadın Sanayi Platformu\nAhu Olgun / Global Sürdürülebilirlik Yöneticisi / Borusan Boru\nÇiğdem Degirmencioğlu / Yönetim Kurulu Başkan Vekili / Elatek Kauçuk\nHazal Onat / Global Enerji Performansı Kıdemli Uzmanı / Martur Fompak',
+    type: 'Panel',
+  },
+  {
+    time: '12.50-13.00',
+    title: 'Verisi Fabrikadan Çıkmayan, Aksiyon Alan Yapay Zekâ',
+    description: 'Fikri Mert Kurum / Kurucu Ortak / Skyloop',
+    type: 'Sunum',
+  },
+];

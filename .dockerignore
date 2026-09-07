@@ -1,0 +1,10 @@
+node_modules
+out
+dist
+dist-ssr
+.git
+.gitignore
+*.md
+Dockerfile
+docker-compose.yml
+.dockerignore

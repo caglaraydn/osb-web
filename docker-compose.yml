@@ -1,0 +1,7 @@
+services:
+  osb-web:
+    build: .
+    container_name: osb-web
+    restart: unless-stopped
+    ports:
+      - "${HOST_PORT:-8090}:80"

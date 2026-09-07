@@ -1,0 +1,47 @@
+export const sponsorPackages = [
+  {
+    id: 'platinum',
+    name: 'Platinum',
+    icon: 'ri-vip-crown-line',
+    tag: 'Ana Sponsor',
+    highlight: true,
+    features: [
+      'Açılış konuşması ve ana sahnede görünürlük',
+      'Logo tüm iletişim materyallerinde öncelikli konum',
+      '18 m² özel stant alanı',
+      '30 dakikalık özel sunum hakkı',
+      '4 şehirde tam katılım hakkı',
+      'Basın bülteni ve medya görünürlüğü',
+      'Etkinlik sonrası nitelikli lead listesi',
+    ],
+  },
+  {
+    id: 'gold',
+    name: 'Gold',
+    icon: 'ri-award-line',
+    tag: 'Gold Sponsor',
+    highlight: false,
+    features: [
+      'Logo web sitesi ve sahne ekranlarında',
+      '12 m² stant alanı',
+      '20 dakikalık sunum hakkı',
+      '2 şehirde katılım hakkı',
+      'Etkinlik sonrası lead listesi',
+      'Sosyal medya duyurularında yer alma',
+    ],
+  },
+  {
+    id: 'silver',
+    name: 'Silver',
+    icon: 'ri-medal-line',
+    tag: 'Silver Sponsor',
+    highlight: false,
+    features: [
+      'Logo web sitesinde',
+      '6 m² stant alanı',
+      '1 şehirde katılım hakkı',
+      'Etkinlik sonrası rapor',
+      'Katılımcı ağına erişim',
+    ],
+  },
+];

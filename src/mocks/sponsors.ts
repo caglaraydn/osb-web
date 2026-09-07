@@ -1,0 +1,58 @@
+export const sponsors = [
+  {
+    id: '1',
+    name: 'Schneider Electric',
+    logo: 'https://www.dijitalosbbulusmalari.com/wp-content/uploads/2026/03/6977a14d025b367c51ffb884_63b52d29d8b5d978498434e4_Schneider-Electric-Logo-scaled.jpeg',
+    url: 'https://www.se.com/tr/tr/',
+    tier: 'platinum',
+  },
+  {
+    id: '2',
+    name: 'Rotiot',
+    logo: 'https://www.dijitalosbbulusmalari.com/wp-content/uploads/2026/08/logo_color.svg',
+    url: 'https://www.rotiot.ch/',
+    tier: 'platinum',
+  },
+  {
+    id: '3',
+    name: 'Logosoft',
+    logo: 'https://www.dijitalosbbulusmalari.com/wp-content/uploads/2026/04/Yatay-Horizantal-logo.pdf-5.png',
+    url: 'https://logosoft.com.tr/tr',
+    tier: 'gold',
+  },
+  {
+    id: '4',
+    name: 'Taxten Technologies',
+    logo: 'https://www.dijitalosbbulusmalari.com/wp-content/uploads/2026/04/Yatay-Horizantal-logo.pdf-3.png',
+    url: 'https://www.taxten.com/tr/',
+    tier: 'gold',
+  },
+  {
+    id: '5',
+    name: 'Skyloop',
+    logo: 'https://www.dijitalosbbulusmalari.com/wp-content/uploads/2026/04/Yatay-Horizantal-logo.pdf-Kopyasi.png',
+    url: 'https://www.skyloop.cloud/',
+    tier: 'gold',
+  },
+  {
+    id: '6',
+    name: 'BIFF Digital',
+    logo: 'https://www.dijitalosbbulusmalari.com/wp-content/uploads/2026/07/IMG_5625.JPG.jpeg',
+    url: 'https://biffdigital.com/',
+    tier: 'silver',
+  },
+  {
+    id: '7',
+    name: 'MAS Plus',
+    logo: 'https://www.dijitalosbbulusmalari.com/wp-content/uploads/2026/07/MAS-Logo-tr.pdf.png',
+    url: 'https://www.masplus.com.tr/',
+    tier: 'silver',
+  },
+  {
+    id: '8',
+    name: 'Egebimtes',
+    logo: 'https://www.dijitalosbbulusmalari.com/wp-content/uploads/2026/07/bimes.png',
+    url: 'https://egebimtes.com.tr/',
+    tier: 'silver',
+  },
+];
