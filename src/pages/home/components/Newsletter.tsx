@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { syncToGoogleSheets } from '@/utils/googleSheets';
 
 export default function Newsletter() {
   const [email, setEmail] = useState('');
@@ -27,6 +28,8 @@ export default function Newsletter() {
       setErrorMsg('Lütfen geçerli bir e-posta adresi girin.');
       return;
     }
+
+    void syncToGoogleSheets('Bülten', formData);
 
     setStatus('submitting');
 

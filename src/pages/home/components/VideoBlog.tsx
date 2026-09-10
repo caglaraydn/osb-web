@@ -14,15 +14,7 @@ export default function VideoBlog() {
           <h2 className="font-heading text-xl md:text-2xl lg:text-3xl font-bold text-background-50 text-center">
             DİJİTAL OSB TV
           </h2>
-          <div className="flex-1 flex justify-end">
-            <a
-              href="/videolar"
-              className="hidden md:inline-flex items-center gap-1 text-sm font-medium text-primary-400 hover:text-primary-300 transition-colors whitespace-nowrap"
-            >
-              Tüm Videoları İzle
-              <i className="ri-arrow-right-line" />
-            </a>
-          </div>
+          <div className="flex-1 flex justify-end" />
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 md:gap-6">

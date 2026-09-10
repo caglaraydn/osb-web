@@ -36,7 +36,7 @@ const socialLinks = [
 ];
 
 export default function IletisimPage() {
-  const { status, errorMsg, handleSubmit } = useFormSubmit(FORM_URL);
+  const { status, errorMsg, handleSubmit } = useFormSubmit(FORM_URL, 'company_alt', 'İletişim');
 
   return (
     <div className="min-h-screen bg-background-950">

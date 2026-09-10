@@ -13,15 +13,7 @@ export default function Sponsors() {
           <h2 className="font-heading text-xl md:text-2xl lg:text-3xl font-bold text-foreground-950 text-center">
             ÇÖZÜM ORTAKLARIMIZ
           </h2>
-          <div className="flex-1 flex justify-end">
-            <a
-              href="/sponsorlar"
-              className="hidden md:inline-flex items-center gap-1 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors whitespace-nowrap"
-            >
-              Tüm Çözüm Ortaklarını Gör
-              <i className="ri-arrow-right-line" />
-            </a>
-          </div>
+          <div className="flex-1 flex justify-end" />
         </div>
 
         {/* Featured row - first two logos */}

@@ -77,7 +77,7 @@ interface RegistrationFormProps {
 }
 
 export default function RegistrationForm({ preselectedCityValue = '' }: RegistrationFormProps) {
-  const { status, errorMsg, handleSubmit } = useFormSubmit(FORM_URL);
+  const { status, errorMsg, handleSubmit } = useFormSubmit(FORM_URL, 'company_alt', 'Sanayici Kayıt');
   const [topicsOpen, setTopicsOpen] = useState(false);
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [selectedCity, setSelectedCity] = useState(preselectedCityValue);
@@ -199,7 +199,7 @@ export default function RegistrationForm({ preselectedCityValue = '' }: Registra
                 Katılmak İstediğiniz Şehir
               </label>
               <select
-                name="city"
+                name="sehir"
                 value={selectedCity}
                 onChange={(e) => setSelectedCity(e.target.value)}
                 className="w-full px-4 py-3 text-sm bg-background-50 border border-background-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/40 focus:border-primary-500 text-foreground-950"

@@ -32,7 +32,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="/" className="flex items-center shrink-0">
             <img
-              src="https://public.readdy.ai/ai/img_res/edbc755c-a02e-4d16-adcb-8599a0fc2483.png"
+              src="https://public.readdy.ai/ai/img_res/86f64f46-f743-49fb-9a1e-612c2e59e651.png"
               alt="Dijital OSB Buluşmaları"
               className="h-11 md:h-14 w-auto object-contain"
             />

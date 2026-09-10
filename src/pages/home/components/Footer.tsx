@@ -15,13 +15,6 @@ export default function Footer() {
     { name: 'İletişim', href: '/iletisim' },
   ];
 
-  const forIndustry = [
-    { name: 'İhtiyaç Alanları', href: '#' },
-    { name: 'Teşvik & Finansman', href: '#' },
-    { name: 'B2B Görüşmeler', href: '#' },
-    { name: 'Sık Sorulan Sorular', href: '#' },
-  ];
-
   const forPartners = [
     { name: 'Çözüm Ortağı Ol', href: '/sponsorluk' },
     { name: 'Sponsorluk Seçenekleri', href: '/sponsorluk' },
@@ -33,12 +26,12 @@ export default function Footer() {
   return (
     <footer className="w-full bg-background-950 border-t border-background-800">
       <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-10 py-8 md:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-6">
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-3">
               <img
-                src="https://public.readdy.ai/ai/img_res/edbc755c-a02e-4d16-adcb-8599a0fc2483.png"
+                src="https://public.readdy.ai/ai/img_res/86f64f46-f743-49fb-9a1e-612c2e59e651.png"
                 alt="Dijital OSB Buluşmaları"
                 className="h-12 w-auto object-contain"
               />
@@ -69,25 +62,6 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-xs md:text-sm text-background-400 hover:text-primary-400 transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* For Industry */}
-          <div>
-            <h4 className="font-heading font-semibold text-xs md:text-sm text-background-200 uppercase tracking-wider mb-3 md:mb-4">
-              Sanayiciler İçin
-            </h4>
-            <ul className="space-y-2">
-              {forIndustry.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}

@@ -53,7 +53,7 @@ export const videoBlogs: VideoItem[] = [
   },
   {
     id: '1',
-    title: 'Dijital OSB Buluşmaları 2025 Özeti',
+    title: 'Dijital OSB Buluşmalarında Sizi Neler Bekliyor?',
     duration: '3:24',
     thumbnail:
       'https://readdy.ai/api/search-image?query=Modern%20industrial%20conference%20event%20stage%20with%20large%20LED%20screens%2C%20audience%20of%20business%20professionals%20seated%2C%20dramatic%20deep%20navy%20blue%20and%20cyan%20stage%20lighting%2C%20professional%20event%20photography%2C%20cinematic%20composition%2C%20high%20detail&width=800&height=450&seq=video-thumb-1&orientation=landscape',
@@ -63,6 +63,8 @@ export const videoBlogs: VideoItem[] = [
     views: '12.4B',
     date: '12 Aralık 2025',
     featured: true,
+    videoUrl:
+      'https://storage.helloreaddy.io/project_files/46c5ccc3-db14-417e-a7f8-83863aef8a3c/c273f9e4-b9d1-4a21-a21e-02544b649da1_WhatsApp-Video-2026-08-18-at-15.38.33-1.mp4',
   },
   {
     id: '3',

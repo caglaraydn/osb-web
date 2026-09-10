@@ -60,7 +60,7 @@ export default function KatilimFormu() {
                 ETKİNLİK PROGRAMI
               </h2>
               <p className="text-sm md:text-base text-background-200 max-w-2xl mx-auto leading-relaxed">
-                Ana etkinlik {eventInfo.subtitle} için örnek program akışı.
+                Ana etkinlik {eventInfo.subtitle} için program akışı.
               </p>
             </div>
 

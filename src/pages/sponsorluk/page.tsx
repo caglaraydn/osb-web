@@ -68,7 +68,7 @@ const freeEmailDomains = [
 ];
 
 export default function Sponsorluk() {
-  const { status, errorMsg, handleSubmit } = useFormSubmit(FORM_URL);
+  const { status, errorMsg, handleSubmit } = useFormSubmit(FORM_URL, 'company_alt', 'Çözüm Ortağı');
   const [emailError, setEmailError] = useState('');
   const [eventsOpen, setEventsOpen] = useState(false);
   const [selectedEvents, setSelectedEvents] = useState<string[]>([]);

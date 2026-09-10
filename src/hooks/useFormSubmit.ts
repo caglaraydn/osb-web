@@ -1,8 +1,9 @@
 import { useState, type FormEvent } from 'react';
+import { syncToGoogleSheets } from '@/utils/googleSheets';
 
 type SubmitStatus = 'idle' | 'submitting' | 'success' | 'error';
 
-export function useFormSubmit(submitUrl: string, honeypotName = 'company_alt') {
+export function useFormSubmit(submitUrl: string, honeypotName = 'company_alt', sheetFormSource?: string) {
   const [status, setStatus] = useState<SubmitStatus>('idle');
   const [errorMsg, setErrorMsg] = useState('');
 
@@ -17,6 +18,10 @@ export function useFormSubmit(submitUrl: string, honeypotName = 'company_alt') {
       setStatus('success');
       form.reset();
       return;
+    }
+
+    if (sheetFormSource) {
+      void syncToGoogleSheets(sheetFormSource, formData);
     }
 
     setStatus('submitting');
