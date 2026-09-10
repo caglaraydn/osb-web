@@ -1,4 +1,5 @@
 import { sponsors } from '@/mocks/sponsors';
+import SponsorLogo from './SponsorLogo';
 
 export default function Sponsors() {
   const featured = sponsors.slice(0, 2);
@@ -16,26 +17,22 @@ export default function Sponsors() {
           <div className="flex-1 flex justify-end" />
         </div>
 
-        {/* Featured row - first two logos */}
-        <div className="flex items-center justify-center gap-6 md:gap-10 mb-6 md:mb-8">
+        {/* Featured row - first two */}
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 mb-5 md:mb-7">
           {featured.map((sponsor) => (
             <a
               key={sponsor.id}
               href={sponsor.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center rounded-xl bg-background-50 border border-background-200/70 hover:border-primary-300 p-4 md:p-6 h-24 md:h-32 w-48 md:w-64 transition-all"
+              className="group flex items-center justify-center rounded-xl bg-background-100 border border-background-200/70 hover:border-primary-300 px-6 md:px-10 h-24 md:h-32 w-full sm:w-64 md:w-72 transition-colors"
             >
-              <img
-                src={sponsor.logo}
-                alt={sponsor.name}
-                className="max-h-12 md:max-h-16 w-auto object-contain grayscale group-hover:grayscale-0 opacity-80 group-hover:opacity-100 transition-all duration-300"
-              />
+              <SponsorLogo logo={sponsor.logo} name={sponsor.name} variant="featured" invert={sponsor.invert} />
             </a>
           ))}
         </div>
 
-        {/* Other sponsors - single row below */}
+        {/* Others - aligned grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
           {others.map((sponsor) => (
             <a
@@ -43,12 +40,12 @@ export default function Sponsors() {
               href={sponsor.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center justify-center rounded-xl bg-background-50 border border-background-200/70 hover:border-primary-300 p-3 md:p-4 h-20 md:h-24 transition-all"
+              className="group flex items-center justify-center rounded-xl bg-background-100 border border-background-200/70 hover:border-primary-300 px-3 py-3 h-20 md:h-24 transition-colors"
             >
-              <img
-                src={sponsor.logo}
-                alt={sponsor.name}
-                className="max-h-10 md:max-h-12 w-auto object-contain grayscale group-hover:grayscale-0 opacity-80 group-hover:opacity-100 transition-all duration-300"
+              <SponsorLogo
+                logo={sponsor.logo}
+                name={sponsor.name}
+                variant={sponsor.name === 'BIFF Digital' ? 'compact-large' : 'compact'}
               />
             </a>
           ))}

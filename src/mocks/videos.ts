@@ -25,7 +25,7 @@ export const videoCategories: VideoCategory[] = [
 export const videoBlogs: VideoItem[] = [
   {
     id: 'video-1',
-    title: 'Dijital OSB Buluşmaları — Etkinlik Görüntüleri',
+    title: 'Dijital OSB Buluşmaları 2026 - İzmir ',
     duration: '',
     thumbnail:
       'https://readdy.ai/api/search-image?query=Industrial%20technology%20conference%20stage%20with%20a%20large%20LED%20screen%20showing%20digital%20transformation%20slides%2C%20a%20speaker%20presenting%20on%20stage%2C%20audience%20of%20manufacturing%20professionals%20seated%20in%20a%20modern%20convention%20hall%2C%20deep%20navy%20blue%20and%20cyan%20stage%20lighting%2C%20cinematic%20event%20photography%2C%20high%20detail%2C%20wide%20angle%20composition&width=800&height=450&seq=video-cover-1&orientation=landscape',
@@ -53,7 +53,7 @@ export const videoBlogs: VideoItem[] = [
   },
   {
     id: '1',
-    title: 'Dijital OSB Buluşmalarında Sizi Neler Bekliyor?',
+    title: 'Dijital OSB Buluşmaları 2026 - Antalya',
     duration: '3:24',
     thumbnail:
       'https://readdy.ai/api/search-image?query=Modern%20industrial%20conference%20event%20stage%20with%20large%20LED%20screens%2C%20audience%20of%20business%20professionals%20seated%2C%20dramatic%20deep%20navy%20blue%20and%20cyan%20stage%20lighting%2C%20professional%20event%20photography%2C%20cinematic%20composition%2C%20high%20detail&width=800&height=450&seq=video-thumb-1&orientation=landscape',
@@ -64,7 +64,7 @@ export const videoBlogs: VideoItem[] = [
     date: '12 Aralık 2025',
     featured: true,
     videoUrl:
-      'https://storage.helloreaddy.io/project_files/46c5ccc3-db14-417e-a7f8-83863aef8a3c/c273f9e4-b9d1-4a21-a21e-02544b649da1_WhatsApp-Video-2026-08-18-at-15.38.33-1.mp4',
+      'https://storage.helloreaddy.io/project_files/46c5ccc3-db14-417e-a7f8-83863aef8a3c/c273f9e4-b9d1-4a06-a21e-02544b649da1_WhatsApp-Video-2026-08-18-at-15.38.33-1.mp4',
   },
   {
     id: '3',

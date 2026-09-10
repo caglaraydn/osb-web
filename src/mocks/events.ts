@@ -33,7 +33,8 @@ export const eventCities: EventCity[] = [
     venue: 'NOSAB Konferans Salonu',
     date: '16 Eylül 2026',
     dateShort: '16 Eyl',
-    description: 'Ana etkinlik. 58 OSB ve 5000+ sanayicinin katılımıyla dijital dönüşüm buluşması.',
+    headline: 'Otomotiv, makine, tekstil ve savunma sanayinin güçlü üretim merkezi.',
+    description: "Bursa'nın üretim gücünü dijital ve yeşil dönüşüm teknolojileriyle buluşturuyoruz.",
     year: '2026',
   },
   // 2027 — 6 şehirlik turne

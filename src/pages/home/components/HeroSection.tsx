@@ -6,7 +6,7 @@ export default function HeroSection() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="https://storage.helloreaddy.io/project_files/46c5ccc3-db14-417e-a7f8-83863aef8a3c/e67183e4-7cb4-4a34-8171-0b0b9890fa1e_compressed_neden-dijital-osb.webp"
+          src="https://storage.helloreaddy.io/project_files/46c5ccc3-db14-417e-a7f8-83863aef8a3c/5328f4bf-d8ac-4bbd-9fc4-5205e0a22d99_compressed_neden-dijital-osb-1.webp"
           alt=""
           className="w-full h-full object-cover object-center"
         />

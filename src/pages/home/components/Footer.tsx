@@ -31,9 +31,9 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center mb-3">
               <img
-                src="https://public.readdy.ai/ai/img_res/86f64f46-f743-49fb-9a1e-612c2e59e651.png"
+                src="https://storage.helloreaddy.io/project_files/46c5ccc3-db14-417e-a7f8-83863aef8a3c/cd25ef75-821c-486b-a03e-b8aa0948b652_compressed_Dijital-Osb-Bulumalar-Logo-White.webp"
                 alt="Dijital OSB Buluşmaları"
-                className="h-12 w-auto object-contain"
+                className="h-10 w-auto object-contain"
               />
             </div>
             <p className="text-xs text-background-400 leading-relaxed mb-4">
